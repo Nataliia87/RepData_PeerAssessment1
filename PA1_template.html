@@ -243,9 +243,12 @@ library(rmarkdown)
 <p>Calculating median and mean of steps per day:</p>
 
 <pre><code class="r">z&lt;-summary(bydate$steps)
+z[3:4]
 </code></pre>
 
-<p>So, our values are 1.076 &times; 10<sup>4</sup> and 1.077 &times; 10<sup>4</sup></p>
+<pre><code>## Median   Mean 
+##  10760  10770
+</code></pre>
 
 <p>We see that on histogram this values are the most popular.</p>
 

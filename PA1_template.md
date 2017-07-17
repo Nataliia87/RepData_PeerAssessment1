@@ -43,8 +43,13 @@ Calculating median and mean of steps per day:
 
 ```r
 z<-summary(bydate$steps)
+z[3:4]
 ```
-So, our values are 1.076 &times; 10<sup>4</sup> and 1.077 &times; 10<sup>4</sup>
+
+```
+## Median   Mean 
+##  10760  10770
+```
 
 We see that on histogram this values are the most popular.
 

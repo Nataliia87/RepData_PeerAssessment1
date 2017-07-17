@@ -32,8 +32,8 @@ hist(bydate$steps,col="blue",breaks = 10,main = "Total number of steps per day",
 Calculating median and mean of steps per day:
 ```{r}
 z<-summary(bydate$steps)
+z[3:4]
 ```
-So, our values are `r z[3]` and `r z[4]`
 
 We see that on histogram this values are the most popular.
 
